@@ -46,7 +46,7 @@ class SevenSegment:
     # which is the case on 4 char displays, but may need to be modified
     # if another display type is used
     if (state):
-      self.disp.setBufferRow(2, 0xFFFF)
+      self.disp.setBufferRow(2, 0x0002)
     else:
       self.disp.setBufferRow(2, 0)
 
